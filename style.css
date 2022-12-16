@@ -28,7 +28,6 @@
 
 .loaderBox p {
     position: absolute;
-	color: rgb(218, 83, 83);
 	font-family:  monospace;
 	font-weight: 300;
 	position: absolute;
@@ -37,9 +36,10 @@
 	height: 25px;
 	text-align: center;
 	bottom:0px;
-	top: 275px;
+	top: 135px;
 	text-transform: uppercase;
     z-index: 3;
+    background: aliceblue;
 }
 
 /* MEDIA QUERIES */
@@ -73,8 +73,8 @@
 
 }
 h3 {
-    color: #D4F6CC;
-    font-size: 200%;
+    color: #e1e2ec;
+    font-size: 250%;
     text-align: center;
 }
 
