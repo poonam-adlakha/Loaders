@@ -94,6 +94,17 @@ h3 {
     animation: round 1s linear infinite;
     border: solid white 20px;
     border-top: 1.3em solid rgb(81, 219, 217);
+    background: transparent;
+}
+
+.spinner3 {
+    width: 50px;
+    height: 50px;
+    border-radius: 30% 50%;
+    background: transparent;
+    animation: round 1s linear infinite;
+    border-top: 0.5em solid rgb(81, 219, 217);
+    border-bottom: 0.5em solid rgb(81, 219, 217);
 }
 
 @keyframes round {
