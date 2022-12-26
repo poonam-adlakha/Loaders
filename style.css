@@ -107,11 +107,19 @@ h3 {
     border-bottom: 0.5em solid rgb(81, 219, 217);
 }
 
+.spinner4 {
+    border: solid red 30px;
+    border-radius: 50%;
+    border-top: 30px solid rgb(81, 219, 217);
+    animation: round 3s linear infinite;
+}
+
 @keyframes round {
     from {
         rotate: 0deg;
+
     }
     to {
         rotate: 360deg;
-    }
+    }   
 }
