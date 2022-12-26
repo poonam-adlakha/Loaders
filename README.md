@@ -4,5 +4,6 @@ Spinners are created with pure CSS
 
 [Website Link](https://css-loaders-list.netlify.app/)
 
-![CSS Loaders](https://user-images.githubusercontent.com/77884951/208116956-ef5293b8-601d-488c-a9c5-ada76e703ee4.png)
+![CSS Loaders](https://user-images.githubusercontent.com/77884951/209563260-7e4dfc2b-69c9-45db-8437-0ee7efad86f5.png)
+)
 
