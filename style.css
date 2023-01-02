@@ -12,6 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .loaderBox {
@@ -122,4 +123,8 @@ h3 {
     to {
         rotate: 360deg;
     }   
+}
+
+.linear1 {
+    
 }
