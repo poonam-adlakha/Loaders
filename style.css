@@ -126,5 +126,19 @@ h3 {
 }
 
 .linear1 {
-    
+    width: 2.5em;
+    height: 1em;
+    background: #e5f051;
+    animation: linearMove infinite 2s linear;
+}
+
+@keyframes linearMove {
+    0%, 100% {
+        transform: translate(-60px,0);
+    }
+
+    50% {
+        transform: translate(60px, 0);
+        background: #48c354;
+    }
 }
