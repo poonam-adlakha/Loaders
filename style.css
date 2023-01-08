@@ -115,6 +115,26 @@ h3 {
     animation: round 3s linear infinite;
 }
 
+.spinner5 {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: transparent;
+    border: solid white 3px;
+    animation: round 3s linear infinite;
+}
+
+.spinner5::after {
+    content: '';
+    position: absolute;
+    top: -8px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: rgb(81, 219, 217);
+}
+
 @keyframes round {
     from {
         rotate: 0deg;
