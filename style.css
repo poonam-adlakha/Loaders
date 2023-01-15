@@ -135,6 +135,27 @@ h3 {
     background: rgb(81, 219, 217);
 }
 
+.spinner6 {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: transparent;
+    border: solid white 3px;
+    animation: round 1s linear infinite;
+}
+
+.spinner6::after {
+    content: '';
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border-top: rgb(81, 219, 217) 5px solid;
+}
+
 @keyframes round {
     from {
         rotate: 0deg;
