@@ -1,6 +1,8 @@
-# CSS Loaders
+## CSS Loaders
 
-Spinners are created with pure CSS
+This repository is created to generate CSS loaders. 
+
+
 
 [Website Link](https://css-loaders-list.netlify.app/)
 
