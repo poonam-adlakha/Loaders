@@ -2,6 +2,9 @@
 
 This repository is created to generate CSS loaders. 
 
+### Purpose:
+Purpose of this repository is to make atleast 100 of loaders. Stay connected. More loaders coming soon 
+
 
 
 [Website Link](https://css-loaders-list.netlify.app/)
