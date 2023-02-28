@@ -135,6 +135,7 @@ h3 {
     background: rgb(81, 219, 217);
 }
 
+
 .spinner6 {
     position: relative;
     width: 70px;
@@ -157,34 +158,57 @@ h3 {
 }
 
 .spinner7 {
+
     position: absolute;
+
     width: 20px;
+
     height: 20px;
+
     border-radius: 50%;
+
     background: rgb(193, 168, 218);
+
     animation: round 1s linear infinite;
+
 }
 
 .spinner7::after {
+
     content: '';
+
     position: absolute;
+
     left: 20px;
+
     top: 2px;
+
     width: 20px;
+
     height: 20px;
+
     border-radius: 50%;
+
     background: rgb(213, 194, 232);
 
 }
 
 .spinner7::before {
+
     content: '';
+
     position: absolute;
+
     left: 40px;
+
     top: 2px;
+
     width: 20px;
+
     height: 20px;
+
     border-radius: 50%;
+
     background: rgb(219, 192, 248);
 
 }
@@ -215,4 +239,18 @@ h3 {
         transform: translate(60px, 0);
         background: #48c354;
     }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+  border-radius: 3rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FFFF00;
+  border-radius: 3rem;
 }
