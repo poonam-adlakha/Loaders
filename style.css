@@ -241,6 +241,24 @@ h3 {
     }
 }
 
+.spinner8 {
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    background: rgb(81, 219, 217);
+    animation: flip 2s linear infinite;
+}
+
+@keyframes flip {
+    from {
+        transform: perspective(100px);
+    }
+    to {
+        transform: perspective(100px) rotateY(360deg);
+        background: rgb(242, 236, 61);
+        }
+}
+
 ::-webkit-scrollbar {
   width: 10px;
 }
